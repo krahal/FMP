@@ -1,0 +1,41 @@
+{
+  "name": "fmp",
+  "version": "1.0.0",
+  "description": "FMP (fair market price) calculator",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krahal/FMP.git"
+  },
+  "keywords": [
+    "real",
+    "estate",
+    "price",
+    "calculator",
+    "fair",
+    "market"
+  ],
+  "author": "Karn Rahal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krahal/FMP/issues"
+  },
+  "homepage": "https://github.com/krahal/FMP#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11",
+    "realtorca": "^1.0.0"
+  }
+}
